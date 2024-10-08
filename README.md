@@ -1,34 +1,36 @@
-10:32
-• 5G 74)
-firstandfollow.c
-V
-#include<stdio.h>
-#include<ctype.h> #include<string.h>
-void followfirst(char, int, int);
-void follow(char c);
-void findfirst(char, int, int);
-int count, n = 0;
-char cale_first[10][100];
-char cale_follow[10][100];
-int m = 0;
-char production [10][10]; char f[10], first[10];
-int k; char ck; int e;
-int main(int argc, char **argv)
-int jm = 0;
-int km = 0;
-int 1, choice; char c, ch;
-count = 8;
-strepy(production[0], "E=TR");
-strcpy(production[1], "R=+TR");
-strepy(production[2], "R=#");
-strepy(production[3], "T=FY");
-strepy(production[4], "Y=*FY");
-strepy(production[5], "Y-#");
-strpy(production[6], "F=(E)");
-strepy(production[7], "F=i");
-int kay; char done[count];
-int ptr = -1;
-fork = 0; k < count; k++) i
-for kay = 0; kay < 100; kay++) 1
-cale_first[k][kay] = !';
-int pointl = 0, point2, x;
+fork = 0; k < count; k++)
+c = production[k][0];
+point2 = 0;
+x = 0;
+for(kay = 0; kay <= ptr; kay++)
+if(c = done [kay])
+x = 1;
+if (x = 1)
+continue;
+findfirst(c, 0, 0);
+ptr += 1;
+done [ptr] = c;
+printf("In First%c) = {", c);
+cal_first[point1 ][point2++] = c;
+fori = 0 + jm; i < n; i++) i
+int lark = 0, chk = 0;
+for(lark = 0; lark < point2; lark++) {
+if (first[i] = calc_first[point1][lark])
+chk = 1;
+break;
+}
+if(chk = 0)
+printf("%, ", first[i]);
+cal_first[point1][point2++] = first[i];
+}
+printf("3 \n");
+jm = n;
+point1++;
+printf("in");
+print("---
+char donee [count];
+ptr = -1;
+--In\n");
+fork = 0; k < count; k++) 1
+for (kay = 0; kay < 100; kay++) {
+cale_follow[k][kay] =!;
